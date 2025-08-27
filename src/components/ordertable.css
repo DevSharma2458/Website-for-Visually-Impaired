@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* body{
+    height: 97vh;
+} */
+.orderTableLight, .orderTableDark{
+    height: fit-content;
+    border-radius: 30px;
+    width: 50%;
+    margin: 40px;
+    padding: 40px;
+    background: rgba(198, 198, 198,0.2);
+    /* border-color: #cccccc; */
+}
+
+
+.table{
+    margin-top: 50px;
+    height: 270px;
+    overflow: auto;
+}
+
+#tableHeader-dark th{
+    position: sticky;
+    top: 0;
+    /* background-color: #402300; */
+    vertical-align: middle;
+}
+
+td, th{
+    border-bottom: 3px solid black;
+    text-align: center;
+    padding: 0 30px;
+    font-size: 1.2rem;
+}
+
+th{
+    padding-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.nameCell{
+    height: 100px;
+    display: flex;
+    /* width: 100%; */
+    align-items: center;
+}
+
+.nameCell img{
+    /* width:50%; */
+    height:99%;
+    object-fit: contain;
+    object-position: center;
+    margin-right: 50px;
+}
+
+.nameCell p{
+    display: inline-block;
+}
+
+#orderHeader{
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 5px solid wheat;
+    width: 100%;
+}

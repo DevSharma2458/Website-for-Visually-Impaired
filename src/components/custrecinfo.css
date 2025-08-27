@@ -1,0 +1,44 @@
+.custInfoDark, .custInfoLight, .recInfoLight, .recInfoDark{
+    background: rgba(198, 198, 198,0.2);
+    border-radius: 30px;
+    padding: 50px 30px;
+    width: 55%;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 620px;
+}
+
+
+#customerHeader{
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 5px solid wheat;
+    width: 70%;
+}
+
+#customerForm{
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+#customerForm div{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#custName,#custEmail, #custMob, #custCity, #custState, #custCountry, #custPin, #custAddress{
+    margin: 10px;
+    padding: 15px 10px;
+    /* border-radius: 10px; */
+    border: none;
+    background: none;
+    border-bottom: 2px solid wheat;
+    color: white;
+}
