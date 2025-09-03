@@ -5,6 +5,8 @@ Built with React (frontend) and Django (backend), it ensures inclusivity by inte
 
 🎙️ Voice Search & Screen Reader Support – Products and navigation are compatible with assistive technologies.
 
+🗣️ Text-to-Speech on Hover – When the cursor hovers over any product or text, the content is read aloud for easier interaction.
+
 🎨 High Contrast & Multiple Themes – Users can switch between light and dark themes for better visibility.
 
 🛒 Accessible Shopping Experience – Browse categories like Shoes, Electronics, Food, and Clothes with detailed descriptions, ratings, and prices.
