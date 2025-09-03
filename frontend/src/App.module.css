@@ -1,70 +1,103 @@
 .MainContainer {
-    padding: 4% 12%;
-    margin-top: 30px;
-    box-sizing: border-box;
+  padding: 4% 12%;
+  margin-top: 30px;
+  box-sizing: border-box;
 
-    width:100%;
-    display: flex;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
 }
 
+/* Product Image Section */
 .ProductPreview {
-    width: 50%;
+  width: 48%;
 }
 
 .ProductPreview > img {
-    width: 100%;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+  transition: transform 0.3s ease;
 }
 
-.ProductData
-{
-    width: 50%;
+.ProductPreview > img:hover {
+  transform: scale(1.03);
 }
 
-.ProductTitle
-{
-    font-size: 45px;
-    font-weight: 600;
-    margin-top: 0;
-    margin-bottom: 16px;
+/* Product Info Section */
+.ProductData {
+  width: 48%;
+  color: #f4f4f9;
 }
 
-.ProductDescription
-{
-    font-size: 20px;
-    color: rgba(0,0,0,0.8);
-    margin-top: 0;
-    margin-bottom: 16px;
+.ProductTitle {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #ff9800;
 }
 
-.ProductImage
-{
-    width: 100%;
-    max-width: 80px;
-
-    border: 2px solid transparent;
-    border-radius: 8px;
-    margin-right: 12px;
-    cursor: pointer;
+.ProductDescription {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #cccccc;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
-.SelectedProductImage
-{
-    border: 2px solid teal;
+/* Thumbnail Images */
+.ProductImage {
+  width: 70px;
+  max-width: 80px;
+
+  border: 2px solid transparent;
+  border-radius: 10px;
+  margin-right: 12px;
+  cursor: pointer;
+  transition: border 0.2s ease, transform 0.2s ease;
 }
 
-.Heading
-{
-    font-size: 28px;
-    margin-bottom: 8px;
+.ProductImage:hover {
+  transform: scale(1.05);
+  border: 2px solid #ff9800;
 }
 
-.PrimaryButton
-{
-    color: white;
-    background-color: teal;
-    font-size: 18px;
-    border-radius: 8px;
-    border: 0;
-    padding: 12px 24px;
+.SelectedProductImage {
+  border: 2px solid #ff5722;
+}
+
+/* Section Headings */
+.Heading {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+/* Primary Button */
+.PrimaryButton {
+  color: #fff;
+  background: linear-gradient(135deg, #ff9800, #ff5722);
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 12px;
+  border: none;
+  padding: 14px 28px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.PrimaryButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+.PrimaryButton:active {
+  transform: scale(0.96);
 }

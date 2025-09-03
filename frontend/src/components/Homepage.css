@@ -1,5 +1,50 @@
-#categories {
-	display: flex;
-	padding: 50px 200px;
-	justify-content: space-between;
+/* Reduce top spacing of homepage */
+.homepage {
+    padding-top: 20px;   /* aur kam gap */
+    text-align: center;
+}
+
+/* Fix Titles spacing */
+.homepage h1, 
+.homepage h2 {
+    margin: 5px 0 15px 0;   /* aur chhoti spacing */
+}
+
+/* Categories grid closer to top */
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 30px;       /* thoda compact gap */
+    margin: 10px auto;   /* aur kam margin */
+    flex-wrap: wrap;
+}
+
+/* Category card size (color untouched) */
+.categories .category-card {
+    width: 200px;
+    height: 120px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+/* Only hover movement, no color change */
+.categories .category-card:hover {
+    transform: translateY(-5px);
+}
+/* YAHASE CHANGES HAI ISME  ----------------------------------------------------------------------*/
+.homepage.light {
+  background-color: #eceb83;
+  color: #111827;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.homepage.dark {
+  background-color: #111827;
+  color: #f9fafb;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }

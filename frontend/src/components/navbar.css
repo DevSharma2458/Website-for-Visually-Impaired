@@ -14,7 +14,7 @@
 	/* height: 74vh; */
 	color: wheat !important;
 	background-size: cover;
-	background: linear-gradient(180deg, #000 0%, #FF8C00 100%) no-repeat center center fixed;
+	background: linear-gradient(180deg, #000 0%, #ff2600b9 100%) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -61,7 +61,7 @@ code {
 	text-align: center;
 	font-family: "Roboto";
 	border-radius: 60px;
-	background: #464649;
+	background: #0bcf94;
 	color: wheat !important;
 	margin: 10px 20px;
 }
